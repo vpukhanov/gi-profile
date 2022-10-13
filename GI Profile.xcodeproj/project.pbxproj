@@ -12,6 +12,9 @@
 		11A1ADAD28F8809000FA2B36 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */; };
 		11A1ADB528F8837F00FA2B36 /* namecards.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADB328F8837F00FA2B36 /* namecards.json */; };
 		11A1ADB628F8837F00FA2B36 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADB428F8837F00FA2B36 /* characters.json */; };
+		11A1ADB928F885EA00FA2B36 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADB828F885EA00FA2B36 /* Bundle.swift */; };
+		11A1ADBB28F885FF00FA2B36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBA28F885FF00FA2B36 /* Character.swift */; };
+		11A1ADBD28F886AE00FA2B36 /* Namecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBC28F886AE00FA2B36 /* Namecard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		11A1ADB328F8837F00FA2B36 /* namecards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = namecards.json; sourceTree = "<group>"; };
 		11A1ADB428F8837F00FA2B36 /* characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
+		11A1ADB828F885EA00FA2B36 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		11A1ADBA28F885FF00FA2B36 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		11A1ADBC28F886AE00FA2B36 /* Namecard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namecard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				11A1ADAE28F8835100FA2B36 /* Data */,
+				11A1ADB728F885DF00FA2B36 /* Extensions */,
 				11A1AD9E28F8634500FA2B36 /* GIProfileApp.swift */,
 				11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */,
 				11A1ADA228F8634500FA2B36 /* Assets.xcassets */,
@@ -66,8 +73,18 @@
 			children = (
 				11A1ADB428F8837F00FA2B36 /* characters.json */,
 				11A1ADB328F8837F00FA2B36 /* namecards.json */,
+				11A1ADBA28F885FF00FA2B36 /* Character.swift */,
+				11A1ADBC28F886AE00FA2B36 /* Namecard.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		11A1ADB728F885DF00FA2B36 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11A1ADB828F885EA00FA2B36 /* Bundle.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A1AD9F28F8634500FA2B36 /* GIProfileApp.swift in Sources */,
+				11A1ADBD28F886AE00FA2B36 /* Namecard.swift in Sources */,
+				11A1ADB928F885EA00FA2B36 /* Bundle.swift in Sources */,
 				11A1ADAD28F8809000FA2B36 /* HomeScreen.swift in Sources */,
+				11A1ADBB28F885FF00FA2B36 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
