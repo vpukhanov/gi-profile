@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		11A1AD9F28F8634500FA2B36 /* GIProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1AD9E28F8634500FA2B36 /* GIProfileApp.swift */; };
 		11A1ADA328F8634500FA2B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADA228F8634500FA2B36 /* Assets.xcassets */; };
-		11A1ADA628F8634500FA2B36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADA528F8634500FA2B36 /* Preview Assets.xcassets */; };
 		11A1ADAD28F8809000FA2B36 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */; };
 		11A1ADB528F8837F00FA2B36 /* namecards.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADB328F8837F00FA2B36 /* namecards.json */; };
 		11A1ADB628F8837F00FA2B36 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADB428F8837F00FA2B36 /* characters.json */; };
@@ -19,7 +18,6 @@
 		11A1AD9B28F8634500FA2B36 /* GI Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GI Profile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A1AD9E28F8634500FA2B36 /* GIProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIProfileApp.swift; sourceTree = "<group>"; };
 		11A1ADA228F8634500FA2B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11A1ADA528F8634500FA2B36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		11A1ADB328F8837F00FA2B36 /* namecards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = namecards.json; sourceTree = "<group>"; };
 		11A1ADB428F8837F00FA2B36 /* characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
@@ -59,17 +57,8 @@
 				11A1AD9E28F8634500FA2B36 /* GIProfileApp.swift */,
 				11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */,
 				11A1ADA228F8634500FA2B36 /* Assets.xcassets */,
-				11A1ADA428F8634500FA2B36 /* Preview Content */,
 			);
 			path = "GI Profile";
-			sourceTree = "<group>";
-		};
-		11A1ADA428F8634500FA2B36 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				11A1ADA528F8634500FA2B36 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		11A1ADAE28F8835100FA2B36 /* Data */ = {
@@ -139,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A1ADA628F8634500FA2B36 /* Preview Assets.xcassets in Resources */,
 				11A1ADB528F8837F00FA2B36 /* namecards.json in Resources */,
 				11A1ADA328F8634500FA2B36 /* Assets.xcassets in Resources */,
 				11A1ADB628F8837F00FA2B36 /* characters.json in Resources */,
@@ -282,7 +270,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GI Profile/Preview Content\"";
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +298,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GI Profile/Preview Content\"";
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
