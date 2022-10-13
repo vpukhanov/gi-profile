@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Albedo",
+    "filename": "albedo"
+  },
+  {
+    "name": "Aloy",
+    "filename": "aloy"
+  },
+  {
+    "name": "Amber",
+    "filename": "amber"
+  },
+  {
+    "name": "Arataki Itto",
+    "filename": "arataki_itto"
+  },
+  {
+    "name": "Barbara",
+    "filename": "barbara"
+  },
+  {
+    "name": "Beidou",
+    "filename": "beidou"
+  },
+  {
+    "name": "Bennett",
+    "filename": "bennett"
+  },
+  {
+    "name": "Candace",
+    "filename": "candace"
+  },
+  {
+    "name": "Chongyun",
+    "filename": "chongyun"
+  },
+  {
+    "name": "Collei",
+    "filename": "collei"
+  },
+  {
+    "name": "Cyno",
+    "filename": "cyno"
+  },
+  {
+    "name": "Diluc",
+    "filename": "diluc"
+  },
+  {
+    "name": "Diona",
+    "filename": "diona"
+  },
+  {
+    "name": "Dori",
+    "filename": "dori"
+  },
+  {
+    "name": "Eula",
+    "filename": "eula"
+  },
+  {
+    "name": "Fischl",
+    "filename": "fischl"
+  },
+  {
+    "name": "Ganyu",
+    "filename": "ganyu"
+  },
+  {
+    "name": "Gorou",
+    "filename": "gorou"
+  },
+  {
+    "name": "Hu Tao",
+    "filename": "hu_tao"
+  },
+  {
+    "name": "Jean",
+    "filename": "jean"
+  },
+  {
+    "name": "Kaedehara Kazuha",
+    "filename": "kaedehara_kazuha"
+  },
+  {
+    "name": "Kaeya",
+    "filename": "kaeya"
+  },
+  {
+    "name": "Kamisato Ayaka",
+    "filename": "kamisato_ayaka"
+  },
+  {
+    "name": "Kamisato Ayato",
+    "filename": "kamisato_ayato"
+  },
+  {
+    "name": "Keqing",
+    "filename": "keqing"
+  },
+  {
+    "name": "Klee",
+    "filename": "klee"
+  },
+  {
+    "name": "Kujou Sara",
+    "filename": "kujou_sara"
+  },
+  {
+    "name": "Kuki Shinobu",
+    "filename": "kuki_shinobu"
+  },
+  {
+    "name": "Lisa",
+    "filename": "lisa"
+  },
+  {
+    "name": "Mona",
+    "filename": "mona"
+  },
+  {
+    "name": "Ningguang",
+    "filename": "ningguang"
+  },
+  {
+    "name": "Noelle",
+    "filename": "noelle"
+  },
+  {
+    "name": "Qiqi",
+    "filename": "qiqi"
+  },
+  {
+    "name": "Raiden Shogun",
+    "filename": "raiden_shogun"
+  },
+  {
+    "name": "Razor",
+    "filename": "razor"
+  },
+  {
+    "name": "Rosaria",
+    "filename": "rosaria"
+  },
+  {
+    "name": "Sangonomiya Kokomi",
+    "filename": "sangonomiya_kokomi"
+  },
+  {
+    "name": "Sayu",
+    "filename": "sayu"
+  },
+  {
+    "name": "Shenhe",
+    "filename": "shenhe"
+  },
+  {
+    "name": "Shikanoin Heizou",
+    "filename": "shikanoin_heizou"
+  },
+  {
+    "name": "Sucrose",
+    "filename": "sucrose"
+  },
+  {
+    "name": "Tartaglia",
+    "filename": "tartaglia"
+  },
+  {
+    "name": "Thoma",
+    "filename": "thoma"
+  },
+  {
+    "name": "Tighnari",
+    "filename": "tighnari"
+  },
+  {
+    "name": "Traveler",
+    "filename": "traveler"
+  },
+  {
+    "name": "Venti",
+    "filename": "venti"
+  },
+  {
+    "name": "Xiangling",
+    "filename": "xiangling"
+  },
+  {
+    "name": "Xiao",
+    "filename": "xiao"
+  },
+  {
+    "name": "Xingqiu",
+    "filename": "xingqiu"
+  },
+  {
+    "name": "Xinyan",
+    "filename": "xinyan"
+  },
+  {
+    "name": "Yae Miko",
+    "filename": "yae_miko"
+  },
+  {
+    "name": "Yanfei",
+    "filename": "yanfei"
+  },
+  {
+    "name": "Yelan",
+    "filename": "yelan"
+  },
+  {
+    "name": "Yoimiya",
+    "filename": "yoimiya"
+  },
+  {
+    "name": "Yun Jin",
+    "filename": "yun_jin"
+  },
+  {
+    "name": "Zhongli",
+    "filename": "zhongli"
+  },
+  {
+    "name": "Dainsleif",
+    "filename": "dainsleif"
+  },
+  {
+    "name": "Layla",
+    "filename": "layla"
+  },
+  {
+    "name": "Nahida",
+    "filename": "nahida"
+  },
+  {
+    "name": "Nilou",
+    "filename": "nilou"
+  },
+  {
+    "name": "NPC Paimon",
+    "filename": "npc_paimon"
+  }
+]

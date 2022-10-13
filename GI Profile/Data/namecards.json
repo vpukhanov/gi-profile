@@ -1,0 +1,538 @@
+[
+  {
+    "name": "Genshin Impact: A New World",
+    "filename": "genshin_impact__a_new_world"
+  },
+  {
+    "name": "Frostbearing: Ancient Tree",
+    "filename": "frostbearing__ancient_tree"
+  },
+  {
+    "name": "Inazuma: Sacred Sakura",
+    "filename": "inazuma__sacred_sakura"
+  },
+  {
+    "name": "Lumens: Stone of Light",
+    "filename": "lumens__stone_of_light"
+  },
+  {
+    "name": "Achievement: Explorer",
+    "filename": "achievement__explorer"
+  },
+  {
+    "name": "Achievement: Virtuoso",
+    "filename": "achievement__virtuoso"
+  },
+  {
+    "name": "Achievement: Hero",
+    "filename": "achievement__hero"
+  },
+  {
+    "name": "Mondstadt: Whistling Wind",
+    "filename": "mondstadt__whistling_wind"
+  },
+  {
+    "name": "Liyue: Stillness of Stone",
+    "filename": "liyue__stillness_of_stone"
+  },
+  {
+    "name": "Achievement: Colors of the Rainbow",
+    "filename": "achievement__colors_of_the_rainbow"
+  },
+  {
+    "name": "Achievement: Bowmaster",
+    "filename": "achievement__bowmaster"
+  },
+  {
+    "name": "Achievement: Challenger",
+    "filename": "achievement__challenger"
+  },
+  {
+    "name": "Achievement: Deep & Dark",
+    "filename": "achievement__deep___dark"
+  },
+  {
+    "name": "Achievement: Hill Dwellers",
+    "filename": "achievement__hill_dwellers"
+  },
+  {
+    "name": "Achievement: Snowy Land",
+    "filename": "achievement__snowy_land"
+  },
+  {
+    "name": "Achievement: Cliffhanger",
+    "filename": "achievement__cliffhanger"
+  },
+  {
+    "name": "Achievement: Reunion",
+    "filename": "achievement__reunion"
+  },
+  {
+    "name": "Achievement: Challenger II",
+    "filename": "achievement__challenger_ii"
+  },
+  {
+    "name": "Achievement: Challenger III",
+    "filename": "achievement__challenger_iii"
+  },
+  {
+    "name": "Achievement: Snowy Summit",
+    "filename": "achievement__snowy_summit"
+  },
+  {
+    "name": "Achievement: Tea Time",
+    "filename": "achievement__tea_time"
+  },
+  {
+    "name": "Achievement: Vacation Home",
+    "filename": "achievement__vacation_home"
+  },
+  {
+    "name": "Achievement: Gate",
+    "filename": "achievement__gate"
+  },
+  {
+    "name": "Achievement: Traversal",
+    "filename": "achievement__traversal"
+  },
+  {
+    "name": "Achievement: Stone Dragon",
+    "filename": "achievement__stone_dragon"
+  },
+  {
+    "name": "Achievement: Full Bloom",
+    "filename": "achievement__full_bloom"
+  },
+  {
+    "name": "Inazuma: Kujou Insignia",
+    "filename": "inazuma__kujou_insignia"
+  },
+  {
+    "name": "Inazuma: Sangonomiya Crest",
+    "filename": "inazuma__sangonomiya_crest"
+  },
+  {
+    "name": "Achievement: Nails",
+    "filename": "achievement__nails"
+  },
+  {
+    "name": "Inazuma: Eagleplume",
+    "filename": "inazuma__eagleplume"
+  },
+  {
+    "name": "Inazuma: Tokoyo",
+    "filename": "inazuma__tokoyo"
+  },
+  {
+    "name": "Achievement: Thunderclap",
+    "filename": "achievement__thunderclap"
+  },
+  {
+    "name": "Achievement: Chasm",
+    "filename": "achievement__chasm"
+  },
+  {
+    "name": "Achievement: Roaming",
+    "filename": "achievement__roaming"
+  },
+  {
+    "name": "Achievement: Fated Encounter",
+    "filename": "achievement__fated_encounter"
+  },
+  {
+    "name": "Sumeru: Shimmering Woods",
+    "filename": "sumeru__shimmering_woods"
+  },
+  {
+    "name": "Achievement: Seven Lights",
+    "filename": "achievement__seven_lights"
+  },
+  {
+    "name": "Sumeru: Sandtreader",
+    "filename": "sumeru__sandtreader"
+  },
+  {
+    "name": "Achievement: Mirrored Dreams",
+    "filename": "achievement__mirrored_dreams"
+  },
+  {
+    "name": "Travel Notes: Catch the Wind",
+    "filename": "travel_notes__catch_the_wind"
+  },
+  {
+    "name": "Travel Notes: Fading Star",
+    "filename": "travel_notes__fading_star"
+  },
+  {
+    "name": "Travel Notes: Chalk",
+    "filename": "travel_notes__chalk"
+  },
+  {
+    "name": "Travel Notes: Mingxiao",
+    "filename": "travel_notes__mingxiao"
+  },
+  {
+    "name": "Travel Notes: Windblume",
+    "filename": "travel_notes__windblume"
+  },
+  {
+    "name": "Travel Notes: Sub-Space Recreation",
+    "filename": "travel_notes__sub_space_recreation"
+  },
+  {
+    "name": "Travel Notes: Midsummer",
+    "filename": "travel_notes__midsummer"
+  },
+  {
+    "name": "Travel Notes: Grand Narukami Shrine",
+    "filename": "travel_notes__grand_narukami_shrine"
+  },
+  {
+    "name": "Travel Notes: Moonchaser",
+    "filename": "travel_notes__moonchaser"
+  },
+  {
+    "name": "Travel Notes: Heavenly General",
+    "filename": "travel_notes__heavenly_general"
+  },
+  {
+    "name": "Travel Notes: Lyratum",
+    "filename": "travel_notes__lyratum"
+  },
+  {
+    "name": "Travel Notes: Flowing Hues",
+    "filename": "travel_notes__flowing_hues"
+  },
+  {
+    "name": "Travel Notes: Awakening",
+    "filename": "travel_notes__awakening"
+  },
+  {
+    "name": "Travel Notes: Irodori",
+    "filename": "travel_notes__irodori"
+  },
+  {
+    "name": "Travel Notes: Divine Will",
+    "filename": "travel_notes__divine_will"
+  },
+  {
+    "name": "Travel Notes: Azure Main",
+    "filename": "travel_notes__azure_main"
+  },
+  {
+    "name": "Travel Notes: Woodlands",
+    "filename": "travel_notes__woodlands"
+  },
+  {
+    "name": "Travel Notes: Returning Winds",
+    "filename": "travel_notes__returning_winds"
+  },
+  {
+    "name": "Mondstadt: Hero's Fame",
+    "filename": "mondstadt__hero_s_fame"
+  },
+  {
+    "name": "Mondstadt: Blessing",
+    "filename": "mondstadt__blessing"
+  },
+  {
+    "name": "Liyue: A Thousand Ships",
+    "filename": "liyue__a_thousand_ships"
+  },
+  {
+    "name": "Liyue: In the Clouds",
+    "filename": "liyue__in_the_clouds"
+  },
+  {
+    "name": "Inazuma: Raiden Emblem",
+    "filename": "inazuma__raiden_emblem"
+  },
+  {
+    "name": "Inazuma: Kamisato Crest",
+    "filename": "inazuma__kamisato_crest"
+  },
+  {
+    "name": "Sumeru: Observance",
+    "filename": "sumeru__observance"
+  },
+  {
+    "name": "Sumeru: Unsullied",
+    "filename": "sumeru__unsullied"
+  },
+  {
+    "name": "Albedo: Sun Blossom",
+    "filename": "albedo__sun_blossom"
+  },
+  {
+    "name": "Aloy: Dawn",
+    "filename": "aloy__dawn"
+  },
+  {
+    "name": "Amber: Bunny",
+    "filename": "amber__bunny"
+  },
+  {
+    "name": "Barbara: Flow",
+    "filename": "barbara__flow"
+  },
+  {
+    "name": "Beidou: Weighing Anchor",
+    "filename": "beidou__weighing_anchor"
+  },
+  {
+    "name": "Bennett: Recognition",
+    "filename": "bennett__recognition"
+  },
+  {
+    "name": "Candace: Grey Heron",
+    "filename": "candace__grey_heron"
+  },
+  {
+    "name": "Childe: Foul Legacy",
+    "filename": "childe__foul_legacy"
+  },
+  {
+    "name": "Chongyun: Spirit Blade",
+    "filename": "chongyun__spirit_blade"
+  },
+  {
+    "name": "Collei: Good Virtue",
+    "filename": "collei__good_virtue"
+  },
+  {
+    "name": "Cyno: Silence",
+    "filename": "cyno__silence"
+  },
+  {
+    "name": "Diluc: Flames",
+    "filename": "diluc__flames"
+  },
+  {
+    "name": "Diona: Meow!",
+    "filename": "diona__meow_"
+  },
+  {
+    "name": "Dori: Jinni",
+    "filename": "dori__jinni"
+  },
+  {
+    "name": "Eula: Ice-Sealed",
+    "filename": "eula__ice_sealed"
+  },
+  {
+    "name": "Fischl: Night Raven",
+    "filename": "fischl__night_raven"
+  },
+  {
+    "name": "Ganyu: Qilin",
+    "filename": "ganyu__qilin"
+  },
+  {
+    "name": "Gorou: Leisurely Hound",
+    "filename": "gorou__leisurely_hound"
+  },
+  {
+    "name": "Hu Tao: Spirit Soother",
+    "filename": "hu_tao__spirit_soother"
+  },
+  {
+    "name": "Itto: Oni Face",
+    "filename": "itto__oni_face"
+  },
+  {
+    "name": "Jean: The Winds' Course",
+    "filename": "jean__the_winds__course"
+  },
+  {
+    "name": "Kaedehara Kazuha: Autumn Maple-Viewing",
+    "filename": "kaedehara_kazuha__autumn_maple_viewing"
+  },
+  {
+    "name": "Kaeya: Pavo Ocellus",
+    "filename": "kaeya__pavo_ocellus"
+  },
+  {
+    "name": "Kamisato Ayaka: Folding Fan",
+    "filename": "kamisato_ayaka__folding_fan"
+  },
+  {
+    "name": "Kamisato Ayato: Ripple",
+    "filename": "kamisato_ayato__ripple"
+  },
+  {
+    "name": "Keqing: Lightning Stiletto",
+    "filename": "keqing__lightning_stiletto"
+  },
+  {
+    "name": "Klee: Explosive",
+    "filename": "klee__explosive"
+  },
+  {
+    "name": "Kujou Sara: Tengu",
+    "filename": "kujou_sara__tengu"
+  },
+  {
+    "name": "Kuki Shinobu: Net",
+    "filename": "kuki_shinobu__net"
+  },
+  {
+    "name": "Lisa: Tempus Fugit",
+    "filename": "lisa__tempus_fugit"
+  },
+  {
+    "name": "Mona: Starry Sky",
+    "filename": "mona__starry_sky"
+  },
+  {
+    "name": "Nilou: Lotus Dance",
+    "filename": "nilou__lotus_dance"
+  },
+  {
+    "name": "Ningguang: Phoenix",
+    "filename": "ningguang__phoenix"
+  },
+  {
+    "name": "Noelle: Protector",
+    "filename": "noelle__protector"
+  },
+  {
+    "name": "Qiqi: Cold Storage",
+    "filename": "qiqi__cold_storage"
+  },
+  {
+    "name": "Raiden Shogun: Enlightenment",
+    "filename": "raiden_shogun__enlightenment"
+  },
+  {
+    "name": "Razor: Wolvensprint",
+    "filename": "razor__wolvensprint"
+  },
+  {
+    "name": "Rosaria: Indenture",
+    "filename": "rosaria__indenture"
+  },
+  {
+    "name": "Sangonomiya Kokomi: The Deep",
+    "filename": "sangonomiya_kokomi__the_deep"
+  },
+  {
+    "name": "Sayu: Muji-Muji Daruma",
+    "filename": "sayu__muji_muji_daruma"
+  },
+  {
+    "name": "Shenhe: Comb",
+    "filename": "shenhe__comb"
+  },
+  {
+    "name": "Shikanoin Heizou: Temari",
+    "filename": "shikanoin_heizou__temari"
+  },
+  {
+    "name": "Sucrose: Bio-Alchemy",
+    "filename": "sucrose__bio_alchemy"
+  },
+  {
+    "name": "Thoma: Blazing Guard",
+    "filename": "thoma__blazing_guard"
+  },
+  {
+    "name": "Tighnari: Dew-Kissed",
+    "filename": "tighnari__dew_kissed"
+  },
+  {
+    "name": "Venti: Azure Sky",
+    "filename": "venti__azure_sky"
+  },
+  {
+    "name": "Xiangling: Fresh from the Pan",
+    "filename": "xiangling__fresh_from_the_pan"
+  },
+  {
+    "name": "Xiao: Mask",
+    "filename": "xiao__mask"
+  },
+  {
+    "name": "Xingqiu: Rainbow",
+    "filename": "xingqiu__rainbow"
+  },
+  {
+    "name": "Xinyan: Song's End",
+    "filename": "xinyan__song_s_end"
+  },
+  {
+    "name": "Yae Miko: Kitsune Dreaming",
+    "filename": "yae_miko__kitsune_dreaming"
+  },
+  {
+    "name": "Yanfei: Impartial",
+    "filename": "yanfei__impartial"
+  },
+  {
+    "name": "Yelan: Throw",
+    "filename": "yelan__throw"
+  },
+  {
+    "name": "Yoimiya: Auratus Spark",
+    "filename": "yoimiya__auratus_spark"
+  },
+  {
+    "name": "Yun Jin: Rhyme",
+    "filename": "yun_jin__rhyme"
+  },
+  {
+    "name": "Zhongli: Planet Befall",
+    "filename": "zhongli__planet_befall"
+  },
+  {
+    "name": "Celebration: Hypostasis",
+    "filename": "celebration__hypostasis"
+  },
+  {
+    "name": "Celebration: Lantern-Light",
+    "filename": "celebration__lantern_light"
+  },
+  {
+    "name": "Celebration: Mechanicus",
+    "filename": "celebration__mechanicus"
+  },
+  {
+    "name": "Celebration: Feast",
+    "filename": "celebration__feast"
+  },
+  {
+    "name": "Celebration: Shining Scale",
+    "filename": "celebration__shining_scale"
+  },
+  {
+    "name": "Celebration: Fruit of Wisdom",
+    "filename": "celebration__fruit_of_wisdom"
+  },
+  {
+    "name": "Celebration: Peekaboo!",
+    "filename": "celebration__peekaboo_"
+  },
+  {
+    "name": "Celebration: Vastness",
+    "filename": "celebration__vastness"
+  },
+  {
+    "name": "Celebration: Kaboomball",
+    "filename": "celebration__kaboomball"
+  },
+  {
+    "name": "Celebration: Battlesong",
+    "filename": "celebration__battlesong"
+  },
+  {
+    "name": "Celebration: Wondrous Calculation",
+    "filename": "celebration__wondrous_calculation"
+  },
+  {
+    "name": "Celebration: Ikki",
+    "filename": "celebration__ikki"
+  },
+  {
+    "name": "Celebration: Binge Vessel",
+    "filename": "celebration__binge_vessel"
+  }
+]
