@@ -11,45 +11,74 @@ struct HomeScreen: View {
     @Binding var profiles: [Profile]
     let saveAction: () -> Void
     
-    @State private var newProfileData = Profile.Data()
-    @State private var isPresentingNewProfile = false
+    @State private var profileData = Profile.Data()
+    
+    @State private var isCreatingProfile = false
+    
+    @State private var isEditingProfile = false
+    @State private var editingProfileId: UUID = UUID()
     
     @Environment(\.scenePhase) private var scenePhase
     
     var body: some View {
         List {
             ForEach(profiles) { profile in
-                Text(profile.nickname)
+                Button {
+                    profileData = profile.data
+                    editingProfileId = profile.id
+                    isEditingProfile = true
+                } label: {
+                    Text(profile.nickname)
+                }
             }
         }
         .navigationTitle("Profiles")
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 Button {
-                    isPresentingNewProfile = true
+                    isCreatingProfile = true
                 } label: {
                     Label("Create Profile", systemImage: "plus")
                 }
             }
         }
-        .sheet(isPresented: $isPresentingNewProfile) {
+        .sheet(isPresented: $isCreatingProfile, onDismiss: { profileData = Profile.Data() }) {
             NavigationView {
-                ProfileEditView(data: $newProfileData)
+                ProfileEditView(data: $profileData)
                     .navigationTitle("New Profile")
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbar {
                         ToolbarItem(placement: .confirmationAction) {
                             Button("Save") {
-                                let profile = Profile(data: newProfileData)
+                                let profile = Profile(data: profileData)
                                 profiles.append(profile)
-                                isPresentingNewProfile = false
-                                newProfileData = Profile.Data()
+                                isCreatingProfile = false
                             }
                         }
                         ToolbarItem(placement: .cancellationAction) {
                             Button("Cancel") {
-                                isPresentingNewProfile = false
-                                newProfileData = Profile.Data()
+                                isCreatingProfile = false
+                            }
+                        }
+                    }
+            }
+        }
+        .sheet(isPresented: $isEditingProfile, onDismiss: { profileData = Profile.Data() }) {
+            NavigationView {
+                ProfileEditView(data: $profileData)
+                    .navigationTitle("Edit Profile")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar {
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button("Save") {
+                                let idx = profiles.firstIndex { $0.id == editingProfileId }
+                                profiles[idx!].update(from: profileData)
+                                isEditingProfile = false
+                            }
+                        }
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Cancel") {
+                                isEditingProfile = false
                             }
                         }
                     }
