@@ -15,6 +15,8 @@
 		11A1ADB928F885EA00FA2B36 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADB828F885EA00FA2B36 /* Bundle.swift */; };
 		11A1ADBB28F885FF00FA2B36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBA28F885FF00FA2B36 /* Character.swift */; };
 		11A1ADBD28F886AE00FA2B36 /* Namecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBC28F886AE00FA2B36 /* Namecard.swift */; };
+		11A1ADBF28F9B75800FA2B36 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBE28F9B75800FA2B36 /* Profile.swift */; };
+		11A1ADC128F9B95B00FA2B36 /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADC028F9B95B00FA2B36 /* ProfileStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,9 @@
 		11A1ADB828F885EA00FA2B36 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		11A1ADBA28F885FF00FA2B36 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		11A1ADBC28F886AE00FA2B36 /* Namecard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namecard.swift; sourceTree = "<group>"; };
+		11A1ADBE28F9B75800FA2B36 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		11A1ADC028F9B95B00FA2B36 /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
+		11A1ADC228F9B9D400FA2B36 /* GI Profile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GI Profile.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		11A1AD9D28F8634500FA2B36 /* GI Profile */ = {
 			isa = PBXGroup;
 			children = (
+				11A1ADC228F9B9D400FA2B36 /* GI Profile.entitlements */,
 				11A1ADAE28F8835100FA2B36 /* Data */,
 				11A1ADB728F885DF00FA2B36 /* Extensions */,
 				11A1AD9E28F8634500FA2B36 /* GIProfileApp.swift */,
@@ -75,6 +81,8 @@
 				11A1ADB328F8837F00FA2B36 /* namecards.json */,
 				11A1ADBA28F885FF00FA2B36 /* Character.swift */,
 				11A1ADBC28F886AE00FA2B36 /* Namecard.swift */,
+				11A1ADBE28F9B75800FA2B36 /* Profile.swift */,
+				11A1ADC028F9B95B00FA2B36 /* ProfileStore.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -158,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A1ADC128F9B95B00FA2B36 /* ProfileStore.swift in Sources */,
 				11A1AD9F28F8634500FA2B36 /* GIProfileApp.swift in Sources */,
+				11A1ADBF28F9B75800FA2B36 /* Profile.swift in Sources */,
 				11A1ADBD28F886AE00FA2B36 /* Namecard.swift in Sources */,
 				11A1ADB928F885EA00FA2B36 /* Bundle.swift in Sources */,
 				11A1ADAD28F8809000FA2B36 /* HomeScreen.swift in Sources */,
@@ -288,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GI Profile/GI Profile.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
@@ -316,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GI Profile/GI Profile.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;

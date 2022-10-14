@@ -8,18 +8,24 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    @Binding var profiles: [Profile]
+    let saveAction: () -> Void
+    
+    @Environment(\.scenePhase) private var scenePhase
+    
     var body: some View {
-        NavigationView {
-            List {
-                
-            }
-            .navigationTitle("Profiles")
+        List {
+            
+        }
+        .navigationTitle("Profiles")
+        .onChange(of: scenePhase) { phase in
+            if phase == .inactive { saveAction() }
         }
     }
 }
 
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreen()
+        HomeScreen(profiles: .constant([]), saveAction: {})
     }
 }
