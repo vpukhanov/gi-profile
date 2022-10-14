@@ -13,7 +13,7 @@ struct Namecard: Identifiable, Codable {
     let name: String
     let filename: String
     
-    static var all: [Namecard] {
+    static var all: [Namecard] = {
         Bundle.main.decode([Namecard].self, from: "namecards.json")
-    }
+    }()
 }

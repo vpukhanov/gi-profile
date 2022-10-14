@@ -13,7 +13,7 @@ struct Character: Identifiable, Codable {
     let name: String
     let filename: String
     
-    static var all: [Character] {
+    static var all: [Character] = {
         Bundle.main.decode([Character].self, from: "characters.json")
-    }
+    }()
 }
