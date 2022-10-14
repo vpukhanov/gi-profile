@@ -39,6 +39,7 @@ struct ProfileView: View {
                         Text(profile.signature)
                             .font(.custom("HYWenHei", size: 16))
                             .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.909, green: 0.886, blue: 0.842)/*@END_MENU_TOKEN@*/)
+                            .multilineTextAlignment(.center)
                     }
                 }
                 .padding()
