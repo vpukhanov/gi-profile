@@ -18,6 +18,8 @@
 		11A1ADBF28F9B75800FA2B36 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBE28F9B75800FA2B36 /* Profile.swift */; };
 		11A1ADC128F9B95B00FA2B36 /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADC028F9B95B00FA2B36 /* ProfileStore.swift */; };
 		11A1ADC428F9C2EB00FA2B36 /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADC328F9C2EB00FA2B36 /* ProfileEditView.swift */; };
+		11A1ADC628F9D30200FA2B36 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADC528F9D30200FA2B36 /* ProfileView.swift */; };
+		11A1ADC828F9D59400FA2B36 /* FantasyFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADC728F9D58D00FA2B36 /* FantasyFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		11A1ADC028F9B95B00FA2B36 /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
 		11A1ADC228F9B9D400FA2B36 /* GI Profile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GI Profile.entitlements"; sourceTree = "<group>"; };
 		11A1ADC328F9C2EB00FA2B36 /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
+		11A1ADC528F9D30200FA2B36 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		11A1ADC728F9D58D00FA2B36 /* FantasyFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FantasyFont.ttf; path = "GI Profile/Data/FantasyFont.ttf"; sourceTree = SOURCE_ROOT; };
+		11A1ADC928F9D5CB00FA2B36 /* GI-Profile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GI-Profile-Info.plist"; path = "../GI-Profile-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 		11A1AD9D28F8634500FA2B36 /* GI Profile */ = {
 			isa = PBXGroup;
 			children = (
+				11A1ADC928F9D5CB00FA2B36 /* GI-Profile-Info.plist */,
 				11A1ADC228F9B9D400FA2B36 /* GI Profile.entitlements */,
 				11A1ADAE28F8835100FA2B36 /* Data */,
 				11A1ADB728F885DF00FA2B36 /* Extensions */,
@@ -73,6 +79,7 @@
 				11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */,
 				11A1ADC328F9C2EB00FA2B36 /* ProfileEditView.swift */,
 				11A1ADA228F8634500FA2B36 /* Assets.xcassets */,
+				11A1ADC528F9D30200FA2B36 /* ProfileView.swift */,
 			);
 			path = "GI Profile";
 			sourceTree = "<group>";
@@ -80,6 +87,7 @@
 		11A1ADAE28F8835100FA2B36 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				11A1ADC728F9D58D00FA2B36 /* FantasyFont.ttf */,
 				11A1ADB428F8837F00FA2B36 /* characters.json */,
 				11A1ADB328F8837F00FA2B36 /* namecards.json */,
 				11A1ADBA28F885FF00FA2B36 /* Character.swift */,
@@ -157,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A1ADB528F8837F00FA2B36 /* namecards.json in Resources */,
+				11A1ADC828F9D59400FA2B36 /* FantasyFont.ttf in Resources */,
 				11A1ADA328F8634500FA2B36 /* Assets.xcassets in Resources */,
 				11A1ADB628F8837F00FA2B36 /* characters.json in Resources */,
 			);
@@ -170,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A1ADC128F9B95B00FA2B36 /* ProfileStore.swift in Sources */,
+				11A1ADC628F9D30200FA2B36 /* ProfileView.swift in Sources */,
 				11A1AD9F28F8634500FA2B36 /* GIProfileApp.swift in Sources */,
 				11A1ADC428F9C2EB00FA2B36 /* ProfileEditView.swift in Sources */,
 				11A1ADBF28F9B75800FA2B36 /* Profile.swift in Sources */,
@@ -308,6 +318,7 @@
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GI-Profile-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +348,7 @@
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GI-Profile-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -22,14 +22,15 @@ struct HomeScreen: View {
     
     var body: some View {
         List {
-            ForEach(profiles) { profile in
+            ForEach($profiles) { $profile in
                 Button {
                     profileData = profile.data
                     editingProfileId = profile.id
                     isEditingProfile = true
                 } label: {
-                    Text(profile.nickname)
+                    ProfileView(profile: $profile)
                 }
+                .buttonStyle(.plain)
             }
         }
         .navigationTitle("Profiles")
