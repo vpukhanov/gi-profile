@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Character: Codable {
+struct Character: Identifiable, Codable {
+    var id: String { name }
+    
     let name: String
     let filename: String
     

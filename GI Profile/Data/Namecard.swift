@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Namecard: Codable {
+struct Namecard: Identifiable, Codable {
+    var id: String { name }
+    
     let name: String
     let filename: String
     

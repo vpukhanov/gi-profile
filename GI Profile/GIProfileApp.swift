@@ -17,22 +17,21 @@ struct GIProfileApp: App {
                 HomeScreen(
                     profiles: $profileStore.profiles,
                     saveAction: {
-                        ProfileStore.save(profiles: profileStore.profiles) { result in
-                            if case .failure(let error) = result {
+                        Task {
+                            do {
+                                try await ProfileStore.save(profiles: profileStore.profiles)
+                            } catch {
                                 fatalError(error.localizedDescription)
                             }
                         }
                     }
                 )
             }
-            .onAppear {
-                ProfileStore.load { result in
-                    switch result {
-                    case .failure(let error):
-                        fatalError(error.localizedDescription)
-                    case .success(let profiles):
-                        profileStore.profiles = profiles
-                    }
+            .task {
+                do {
+                    profileStore.profiles = try await ProfileStore.load()
+                } catch {
+                    fatalError(error.localizedDescription)
                 }
             }
         }

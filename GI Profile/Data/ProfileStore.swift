@@ -19,6 +19,19 @@ class ProfileStore: ObservableObject {
         return url
     }
     
+    static func load() async throws -> [Profile] {
+        try await withCheckedThrowingContinuation { continuation in
+            load { result in
+                switch result {
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                case .success(let profiles):
+                    continuation.resume(returning: profiles)
+                }
+            }
+        }
+    }
+    
     static func load(completion: @escaping (Result<[Profile], Error>) -> Void) {
         DispatchQueue.global(qos: .background).async {
             do {
@@ -36,6 +49,20 @@ class ProfileStore: ObservableObject {
             } catch {
                 DispatchQueue.main.async {
                     completion(.failure(error))
+                }
+            }
+        }
+    }
+    
+    @discardableResult
+    static func save(profiles: [Profile]) async throws -> Int {
+        try await withCheckedThrowingContinuation { continuation in
+            save(profiles: profiles) { result in
+                switch result {
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                case .success(let profilesSaved):
+                    continuation.resume(returning: profilesSaved)
                 }
             }
         }

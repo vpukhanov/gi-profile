@@ -15,17 +15,10 @@ struct HomeScreen: View {
     
     var body: some View {
         List {
-            
         }
         .navigationTitle("Profiles")
         .onChange(of: scenePhase) { phase in
             if phase == .inactive { saveAction() }
         }
-    }
-}
-
-struct HomeScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeScreen(profiles: .constant([]), saveAction: {})
     }
 }
