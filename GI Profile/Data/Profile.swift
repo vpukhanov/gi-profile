@@ -22,3 +22,16 @@ struct Profile: Codable {
         self.signature = signature
     }
 }
+
+extension Profile {
+    struct Data {
+        var character: Character? = nil
+        var namecard = Namecard.all[0]
+        var nickname = ""
+        var signature = ""
+    }
+    
+    var data: Data {
+        Data(character: character, namecard: namecard, nickname: nickname, signature: signature)
+    }
+}

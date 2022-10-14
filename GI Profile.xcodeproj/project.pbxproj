@@ -17,6 +17,7 @@
 		11A1ADBD28F886AE00FA2B36 /* Namecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBC28F886AE00FA2B36 /* Namecard.swift */; };
 		11A1ADBF28F9B75800FA2B36 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADBE28F9B75800FA2B36 /* Profile.swift */; };
 		11A1ADC128F9B95B00FA2B36 /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADC028F9B95B00FA2B36 /* ProfileStore.swift */; };
+		11A1ADC428F9C2EB00FA2B36 /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADC328F9C2EB00FA2B36 /* ProfileEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		11A1ADBE28F9B75800FA2B36 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		11A1ADC028F9B95B00FA2B36 /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
 		11A1ADC228F9B9D400FA2B36 /* GI Profile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GI Profile.entitlements"; sourceTree = "<group>"; };
+		11A1ADC328F9C2EB00FA2B36 /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				11A1ADB728F885DF00FA2B36 /* Extensions */,
 				11A1AD9E28F8634500FA2B36 /* GIProfileApp.swift */,
 				11A1ADAC28F8809000FA2B36 /* HomeScreen.swift */,
+				11A1ADC328F9C2EB00FA2B36 /* ProfileEditView.swift */,
 				11A1ADA228F8634500FA2B36 /* Assets.xcassets */,
 			);
 			path = "GI Profile";
@@ -168,6 +171,7 @@
 			files = (
 				11A1ADC128F9B95B00FA2B36 /* ProfileStore.swift in Sources */,
 				11A1AD9F28F8634500FA2B36 /* GIProfileApp.swift in Sources */,
+				11A1ADC428F9C2EB00FA2B36 /* ProfileEditView.swift in Sources */,
 				11A1ADBF28F9B75800FA2B36 /* Profile.swift in Sources */,
 				11A1ADBD28F886AE00FA2B36 /* Namecard.swift in Sources */,
 				11A1ADB928F885EA00FA2B36 /* Bundle.swift in Sources */,

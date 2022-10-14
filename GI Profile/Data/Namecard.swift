@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Namecard: Identifiable, Codable {
+struct Namecard: Identifiable, Hashable, Codable {
     var id: String { name }
     
     let name: String
