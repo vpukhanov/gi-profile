@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Profile: Codable {
+struct Profile: Identifiable, Codable {
     let id: UUID
     var character: Character?
     var namecard: Namecard
@@ -33,5 +33,20 @@ extension Profile {
     
     var data: Data {
         Data(character: character, namecard: namecard, nickname: nickname, signature: signature)
+    }
+    
+    mutating func update(from data: Data) {
+        character = data.character
+        namecard = data.namecard
+        nickname = data.nickname
+        signature = data.signature
+    }
+    
+    init(data: Data) {
+        id = UUID()
+        character = data.character
+        namecard = data.namecard
+        nickname = data.nickname
+        signature = data.signature
     }
 }

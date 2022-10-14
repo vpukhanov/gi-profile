@@ -18,6 +18,9 @@ struct HomeScreen: View {
     
     var body: some View {
         List {
+            ForEach(profiles) { profile in
+                Text(profile.nickname)
+            }
         }
         .navigationTitle("Profiles")
         .toolbar {
@@ -34,6 +37,22 @@ struct HomeScreen: View {
                 ProfileEditView(data: $newProfileData)
                     .navigationTitle("New Profile")
                     .navigationBarTitleDisplayMode(.inline)
+                    .toolbar {
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button("Save") {
+                                let profile = Profile(data: newProfileData)
+                                profiles.append(profile)
+                                isPresentingNewProfile = false
+                                newProfileData = Profile.Data()
+                            }
+                        }
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Cancel") {
+                                isPresentingNewProfile = false
+                                newProfileData = Profile.Data()
+                            }
+                        }
+                    }
             }
         }
         .onChange(of: scenePhase) { phase in
