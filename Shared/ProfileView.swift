@@ -14,6 +14,7 @@ struct ProfileView: View {
         Image(profile.namecard.filename)
             .resizable()
             .aspectRatio(contentMode: .fill)
+            .brightness(-0.2)
             .overlay {
                 VStack {
                     HStack {

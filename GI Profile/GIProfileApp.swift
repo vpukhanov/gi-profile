@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 @main
 struct GIProfileApp: App {
@@ -20,6 +21,7 @@ struct GIProfileApp: App {
                         Task {
                             do {
                                 try await ProfileStore.save(profiles: profileStore.profiles)
+                                WidgetCenter.shared.reloadAllTimelines()
                             } catch {
                                 fatalError(error.localizedDescription)
                             }
