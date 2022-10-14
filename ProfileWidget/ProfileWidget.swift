@@ -11,47 +11,57 @@ import Intents
 
 struct Provider: IntentTimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: ConfigurationIntent())
+        SimpleEntry(date: Date(), profile: Profile(
+            character: Character.all[0],
+            namecard: Namecard.all[0],
+            nickname: "The Alchemist",
+            signature: "If one day, I lose control...\nCan I rely on you to stop me?"
+        ))
     }
 
     func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), configuration: configuration)
-        completion(entry)
+        getProfile(from: configuration) { profile in
+            completion(SimpleEntry(date: Date(), profile: profile))
+        }
     }
 
     func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
-
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, configuration: configuration)
-            entries.append(entry)
+        getProfile(from: configuration) { profile in
+            let entry = SimpleEntry(date: Date(), profile: profile)
+            let timeline = Timeline(entries: [entry], policy: .never)
+            completion(timeline)
         }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
-        completion(timeline)
+    }
+    
+    private func getProfile(from configuration: ConfigurationIntent, completion: @escaping (Profile?) -> Void) {
+        ProfileStore.load { result in
+            switch result {
+            case .failure:
+                completion(nil)
+            case .success(let profiles):
+                let profile = profiles.first { $0.id.uuidString == configuration.profile?.identifier }
+                completion(profile)
+            }
+        }
     }
 }
 
 struct SimpleEntry: TimelineEntry {
     let date: Date
-    let configuration: ConfigurationIntent
+    let profile: Profile?
 }
 
 struct ProfileWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        ProfileView(profile: .constant(
-            Profile(
-                character: Character.all[0],
-                namecard: Namecard.all[0],
-                nickname: "The Alchemist",
-                signature: "If one day, I lose control...\nCan I rely on you to stop me?"
-            )
-        ))
+        if let profile = entry.profile {
+            ProfileView(profile: .constant(profile))
+        } else {
+            Text("Create a profile in the \"GI Profile\" app and select it in the widget options.")
+                .padding()
+                .multilineTextAlignment(.center)
+        }
     }
 }
 
@@ -66,12 +76,5 @@ struct ProfileWidget: Widget {
         .configurationDisplayName("GI Profile")
         .description("Displays one of the profiles created in the app.")
         .supportedFamilies([.systemMedium])
-    }
-}
-
-struct ProfileWidget_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileWidgetEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent()))
-            .previewContext(WidgetPreviewContext(family: .systemMedium))
     }
 }
