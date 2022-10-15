@@ -47,6 +47,7 @@
 		11A1AE0828F9E67A00FA2B36 /* namecards.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADB328F8837F00FA2B36 /* namecards.json */; };
 		11A1AE0928F9E67A00FA2B36 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 11A1ADB428F8837F00FA2B36 /* characters.json */; };
 		11A1AE0A28F9E67F00FA2B36 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1ADB828F885EA00FA2B36 /* Bundle.swift */; };
+		11A1AE0F28FACB0100FA2B36 /* TelemetryClient in Frameworks */ = {isa = PBXBuildFile; productRef = 11A1AE0E28FACB0100FA2B36 /* TelemetryClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A1AE0F28FACB0100FA2B36 /* TelemetryClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +259,9 @@
 				11A1ADFE28F9E58400FA2B36 /* PBXTargetDependency */,
 			);
 			name = "GI Profile";
+			packageProductDependencies = (
+				11A1AE0E28FACB0100FA2B36 /* TelemetryClient */,
+			);
 			productName = "GI Profile";
 			productReference = 11A1AD9B28F8634500FA2B36 /* GI Profile.app */;
 			productType = "com.apple.product-type.application";
@@ -325,6 +330,9 @@
 				Base,
 			);
 			mainGroup = 11A1AD9228F8634500FA2B36;
+			packageReferences = (
+				11A1AE0D28FACB0100FA2B36 /* XCRemoteSwiftPackageReference "SwiftClient" */,
+			);
 			productRefGroup = 11A1AD9C28F8634500FA2B36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -555,7 +563,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "GI Profile/GI Profile.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -591,7 +599,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "GI Profile/GI Profile.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -626,7 +634,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = ProfileWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProfileWidget/Info.plist;
@@ -654,7 +662,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = ProfileWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProfileWidget/Info.plist;
@@ -680,7 +688,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = IntentsExtension/IntentsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IntentsExtension/Info.plist;
@@ -706,7 +714,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = IntentsExtension/IntentsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BFJQQT3YDX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IntentsExtension/Info.plist;
@@ -767,6 +775,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11A1AE0D28FACB0100FA2B36 /* XCRemoteSwiftPackageReference "SwiftClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TelemetryDeck/SwiftClient";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11A1AE0E28FACB0100FA2B36 /* TelemetryClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11A1AE0D28FACB0100FA2B36 /* XCRemoteSwiftPackageReference "SwiftClient" */;
+			productName = TelemetryClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11A1AD9328F8634500FA2B36 /* Project object */;
 }

@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import TelemetryClient
 import WidgetKit
 
 @main
 struct GIProfileApp: App {
     @StateObject private var profileStore = ProfileStore()
+    
+    init() {
+        let configuration = TelemetryManagerConfiguration(appID: "CEFA38F6-9411-4DF9-B1C9-083F4EF9673D")
+        TelemetryManager.initialize(with: configuration)
+        
+        TelemetryManager.send("applicationDidFinishLaunching")
+    }
     
     var body: some Scene {
         WindowGroup {
