@@ -30,6 +30,7 @@ struct ProfileEditView: View {
                         Image(character.filename)
                             .resizable()
                             .scaledToFit()
+                            .frame(maxHeight: 200)
                         Spacer()
                     }
                 }

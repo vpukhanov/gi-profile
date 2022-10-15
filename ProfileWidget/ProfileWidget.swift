@@ -58,7 +58,8 @@ struct ProfileWidgetEntryView : View {
         if let profile = entry.profile {
             ProfileView(profile: .constant(profile))
         } else {
-            Text("Create a profile in the \"GI Profile\" app and select it in the widget options.")
+            Text("Add widget to your Home Screen, long press it and tap \"Edit\" to choose the displayed profile")
+                .font(.custom("HYWenHei", size: 20))
                 .padding()
                 .multilineTextAlignment(.center)
         }

@@ -36,6 +36,14 @@ struct HomeScreen: View {
             .onDelete { profiles.remove(atOffsets: $0) }
         }
         .navigationTitle("Profiles")
+        .overlay {
+            if profiles.isEmpty {
+                Text("Create a profile by tapping the plus button in the toolbar")
+                    .foregroundColor(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding()
+            }
+        }
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 Button {
