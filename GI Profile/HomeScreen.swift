@@ -29,9 +29,11 @@ struct HomeScreen: View {
                     isEditingProfile = true
                 } label: {
                     ProfileView(profile: $profile)
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
                 }
                 .buttonStyle(.plain)
             }
+            .onDelete { profiles.remove(atOffsets: $0) }
         }
         .navigationTitle("Profiles")
         .toolbar {
