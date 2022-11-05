@@ -1,5 +1,9 @@
 [
   {
+    "name": "Aether",
+    "filename": "aether"
+  },
+  {
     "name": "Albedo",
     "filename": "albedo"
   },
@@ -44,6 +48,10 @@
     "filename": "cyno"
   },
   {
+    "name": "Dainsleif",
+    "filename": "dainsleif"
+  },
+  {
     "name": "Diluc",
     "filename": "diluc"
   },
@@ -58,6 +66,10 @@
   {
     "name": "Eula",
     "filename": "eula"
+  },
+  {
+    "name": "Faruzan",
+    "filename": "faruzan"
   },
   {
     "name": "Fischl",
@@ -112,12 +124,28 @@
     "filename": "kuki_shinobu"
   },
   {
+    "name": "Layla",
+    "filename": "layla"
+  },
+  {
     "name": "Lisa",
     "filename": "lisa"
   },
   {
+    "name": "Lumine",
+    "filename": "lumine"
+  },
+  {
     "name": "Mona",
     "filename": "mona"
+  },
+  {
+    "name": "Nahida",
+    "filename": "nahida"
+  },
+  {
+    "name": "Nilou",
+    "filename": "nilou"
   },
   {
     "name": "Ningguang",
@@ -184,6 +212,10 @@
     "filename": "venti"
   },
   {
+    "name": "Wanderer",
+    "filename": "wanderer"
+  },
+  {
     "name": "Xiangling",
     "filename": "xiangling"
   },
@@ -222,22 +254,6 @@
   {
     "name": "Zhongli",
     "filename": "zhongli"
-  },
-  {
-    "name": "Dainsleif",
-    "filename": "dainsleif"
-  },
-  {
-    "name": "Layla",
-    "filename": "layla"
-  },
-  {
-    "name": "Nahida",
-    "filename": "nahida"
-  },
-  {
-    "name": "Nilou",
-    "filename": "nilou"
   },
   {
     "name": "NPC Paimon",
