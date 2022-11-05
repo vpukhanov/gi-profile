@@ -32,9 +32,12 @@ struct HomeScreen: View {
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                 }
                 .buttonStyle(.plain)
+                .padding(.horizontal)
             }
             .onDelete { profiles.remove(atOffsets: $0) }
+            .listRowSeparator(.hidden)
         }
+        .listStyle(.plain)
         .navigationTitle("Profiles")
         .overlay {
             if profiles.isEmpty {
