@@ -168,6 +168,10 @@
     "filename": "travel_notes__chalk"
   },
   {
+    "name": "Travel Notes: Fungus Land",
+    "filename": "travel_notes__fungus_land"
+  },
+  {
     "name": "Travel Notes: Mingxiao",
     "filename": "travel_notes__mingxiao"
   },
@@ -376,12 +380,20 @@
     "filename": "kuki_shinobu__net"
   },
   {
+    "name": "Layla: Daydream",
+    "filename": "layla__daydream"
+  },
+  {
     "name": "Lisa: Tempus Fugit",
     "filename": "lisa__tempus_fugit"
   },
   {
     "name": "Mona: Starry Sky",
     "filename": "mona__starry_sky"
+  },
+  {
+    "name": "Nahida: Crescent",
+    "filename": "nahida__crescent"
   },
   {
     "name": "Nilou: Lotus Dance",
