@@ -156,6 +156,10 @@
     "filename": "achievement__mirrored_dreams"
   },
   {
+    "name": "Achievement: Invoker",
+    "filename": "achievement__invoker"
+  },
+  {
     "name": "Travel Notes: Catch the Wind",
     "filename": "travel_notes__catch_the_wind"
   },
@@ -182,6 +186,10 @@
   {
     "name": "Travel Notes: Sub-Space Recreation",
     "filename": "travel_notes__sub_space_recreation"
+  },
+  {
+    "name": "Travel Notes: Stellar Rivers",
+    "filename": "travel_notes__stellar_rivers"
   },
   {
     "name": "Travel Notes: Midsummer",
@@ -322,6 +330,10 @@
   {
     "name": "Eula: Ice-Sealed",
     "filename": "eula__ice_sealed"
+  },
+  {
+    "name": "Faruzan: Sealed Secret",
+    "filename": "faruzan__sealed_secret"
   },
   {
     "name": "Fischl: Night Raven",
@@ -490,6 +502,10 @@
   {
     "name": "Yun Jin: Rhyme",
     "filename": "yun_jin__rhyme"
+  },
+  {
+    "name": "Wanderer: Drifter's Ballad",
+    "filename": "wanderer__drifter__s_ballad"
   },
   {
     "name": "Zhongli: Planet Befall",
