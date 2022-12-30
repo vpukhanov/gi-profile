@@ -15,5 +15,6 @@ struct Namecard: Identifiable, Hashable, Codable {
     
     static var all: [Namecard] = {
         Bundle.main.decode([Namecard].self, from: "namecards.json")
+            .sorted(by: { $0.name < $1.name })
     }()
 }

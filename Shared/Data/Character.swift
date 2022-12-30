@@ -15,5 +15,6 @@ struct Character: Identifiable, Hashable, Codable {
     
     static var all: [Character] = {
         Bundle.main.decode([Character].self, from: "characters.json")
+            .sorted(by: { $0.name < $1.name })
     }()
 }
