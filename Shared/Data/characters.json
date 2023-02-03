@@ -140,6 +140,10 @@
     "filename": "mona"
   },
   {
+    "name": "NPC Paimon",
+    "filename": "npc_paimon"
+  },
+  {
     "name": "Nahida",
     "filename": "nahida"
   },
@@ -254,9 +258,5 @@
   {
     "name": "Zhongli",
     "filename": "zhongli"
-  },
-  {
-    "name": "NPC Paimon",
-    "filename": "npc_paimon"
   }
 ]
