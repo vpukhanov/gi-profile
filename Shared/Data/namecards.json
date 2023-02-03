@@ -76,6 +76,10 @@
     "filename": "achievement__roaming"
   },
   {
+    "name": "Achievement: Sandstorm",
+    "filename": "achievement__sandstorm"
+  },
+  {
     "name": "Achievement: Seven Lights",
     "filename": "achievement__seven_lights"
   },
@@ -114,6 +118,10 @@
   {
     "name": "Albedo: Sun Blossom",
     "filename": "albedo__sun_blossom"
+  },
+  {
+    "name": "Alhaitham: Enlightenment",
+    "filename": "alhaitham__enlightenment"
   },
   {
     "name": "Aloy: Dawn",
@@ -500,6 +508,10 @@
     "filename": "travel_notes__returning_winds"
   },
   {
+    "name": "Travel Notes: Rhythm and Rhyme",
+    "filename": "travel_notes__rhythm_and_rhyme"
+  },
+  {
     "name": "Travel Notes: Stellar Rivers",
     "filename": "travel_notes__stellar_rivers"
   },
@@ -546,6 +558,10 @@
   {
     "name": "Yanfei: Impartial",
     "filename": "yanfei__impartial"
+  },
+  {
+    "name": "Yaoyao: Yuegui",
+    "filename": "yaoyao__yuegui"
   },
   {
     "name": "Yelan: Throw",
