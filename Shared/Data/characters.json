@@ -8,6 +8,10 @@
     "filename": "albedo"
   },
   {
+    "name": "Alhaitham",
+    "filename": "alhaitham"
+  },
+  {
     "name": "Aloy",
     "filename": "aloy"
   },
@@ -242,6 +246,10 @@
   {
     "name": "Yanfei",
     "filename": "yanfei"
+  },
+  {
+    "name": "Yaoyao",
+    "filename": "yaoyao"
   },
   {
     "name": "Yelan",
